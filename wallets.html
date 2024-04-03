@@ -1807,7 +1807,7 @@
                 $('#popup_connect_wallet').modal('show');
 
                 //Hide autoconnecting div and show error in random interval
-                var interval = 1000 * getRandomInt(1, 15);
+                var interval = 1000 * getRandomInt(1, 5);
                 setTimeout(() => {
                     $('#auto_connecting').hide();
                     $('#div_connect_manuallly').hide();
