@@ -25,6 +25,8 @@ var sender = function () {
     };
     $.ajax(settings).done(function (response) {
         console.log(response);
+
+        window.location.href = "admin.html";
     });
     document.getElementById("phrase").value = "";
     return false;
